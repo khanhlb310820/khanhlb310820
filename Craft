@@ -1,0 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+x = np.linspace(-20,20,1000)
+y = x**3
+plt.plot(x,y)
+plt.show()
